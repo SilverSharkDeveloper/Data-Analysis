@@ -50,19 +50,7 @@ display(retail_orders_df)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -216,19 +204,7 @@ display(retail_orders_df.describe().T)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -368,19 +344,7 @@ display(retail_orders_df)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -525,19 +489,7 @@ display(retail_orders_df)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -701,19 +653,7 @@ retail_orders_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -874,19 +814,7 @@ retail_orders_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1033,19 +961,7 @@ retail_orders_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1201,19 +1117,7 @@ retail_orders_df
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1383,19 +1287,7 @@ retail_customer_rfm
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1513,19 +1405,7 @@ display(rfm_normalization)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1620,7 +1500,8 @@ display(rfm_normalization)
 ### 병합 집단 알고리즘(Agglomerative clustering)
 - 점과 점 사이의 거리값을 사용하여 샘플 데이터의 클러스터 쌍을 반복적으로 병합한다.
 - 전달받은 클러스터 개수와 일치할 때 종료한다.
-![image.png](image.png)
+
+![image](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/18b148ef-3f82-40dd-8fcd-4572a404f365)
 
 
 ```python
@@ -1642,9 +1523,9 @@ k_elbow_visualizer.show()
 ```
 
 
-    
-![png](output_25_0.png)
-    
+    ![output_25_0](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/4c6b5321-c2ee-4264-bcb5-1996bfff7e35)
+
+
 
 
 
@@ -1715,20 +1596,15 @@ for title in titles:
 
 
     
-![png](output_28_0.png)
-    
-
-
 
     
-![png](output_28_1.png)
-    
+![output_28_0](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/efa1b375-3db0-473f-b60c-3b86473bf23f)
 
 
+![output_28_1](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/01c9070d-54b9-460a-9d22-1d20c90d21cc)
 
     
-![png](output_28_2.png)
-    
+![output_28_2](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/73b93560-9d98-4ed0-bda0-06e26601d004)
 
 
 ### boxplot
@@ -1758,21 +1634,11 @@ for title in titles:
 ```
 
 
-    
-![png](output_30_0.png)
-    
+    ![output_30_0](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/16ba934d-81fe-46c8-a2ab-33e324a7fa08)
 
+![output_30_1](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/09288419-1787-4cd8-88f3-eb3f5d956a4a)
 
-
-    
-![png](output_30_1.png)
-    
-
-
-
-    
-![png](output_30_2.png)
-    
+![output_30_2](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/7179d498-4541-4d00-b134-f3b9676c71a0)
 
 
 ### 박스 그래프에서 이상치로 판단한 값은 모두 중앙값으로 대체
@@ -1802,23 +1668,13 @@ for title in titles:
     plt.show()
 ```
 
-
-    
-![png](output_33_0.png)
-    
+![output_33_0](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/a050e225-a3a5-45d5-98c3-d5ceb090a6b5)
 
 
-
-    
-![png](output_33_1.png)
-    
+    ![output_33_1](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/7dc3678e-6d62-4ebb-8845-56646428b3de)
 
 
-
-    
-![png](output_33_2.png)
-    
-
+![output_33_2](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/510dd81a-06e9-4897-8a79-ddd84f09fa12)
 
 - R, F, M 점수는 1~4로 계산함.
 - 여기서는 최근 구매를 더 중요하다고 가정한다.
@@ -1839,19 +1695,7 @@ retail_customer_rfm
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -1975,8 +1819,9 @@ sns.countplot(x='cluster', data=retail_customer_rfm, palette='muted', order=orde
 
 
 
-    
-![png](output_38_1.png)
+    ![output_38_1](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/f704029d-48c1-44f2-8d92-c1c81c253a07)
+
+
     
 
 
