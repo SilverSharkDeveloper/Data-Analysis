@@ -1522,8 +1522,7 @@ k_elbow_visualizer.show()
 #그 지점에서의 k값이 분류할 클러스터 갯수로 적합하다고 판단한다.
 ```
 
-
-    ![output_25_0](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/4c6b5321-c2ee-4264-bcb5-1996bfff7e35)
+![output_25_0](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/4c6b5321-c2ee-4264-bcb5-1996bfff7e35)
 
 
 
@@ -1633,8 +1632,7 @@ for title in titles:
     plt.show()
 ```
 
-
-    ![output_30_0](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/16ba934d-81fe-46c8-a2ab-33e324a7fa08)
+![output_30_0](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/16ba934d-81fe-46c8-a2ab-33e324a7fa08)
 
 ![output_30_1](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/09288419-1787-4cd8-88f3-eb3f5d956a4a)
 
@@ -1671,7 +1669,7 @@ for title in titles:
 ![output_33_0](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/a050e225-a3a5-45d5-98c3-d5ceb090a6b5)
 
 
-    ![output_33_1](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/7dc3678e-6d62-4ebb-8845-56646428b3de)
+![output_33_1](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/7dc3678e-6d62-4ebb-8845-56646428b3de)
 
 
 ![output_33_2](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/510dd81a-06e9-4897-8a79-ddd84f09fa12)
@@ -1818,8 +1816,7 @@ sns.countplot(x='cluster', data=retail_customer_rfm, palette='muted', order=orde
 
 
 
-
-    ![output_38_1](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/f704029d-48c1-44f2-8d92-c1c81c253a07)
+![output_38_1](https://github.com/SilverSharkDeveloper/Data-Analysis/assets/129861299/f704029d-48c1-44f2-8d92-c1c81c253a07)
 
 
     
